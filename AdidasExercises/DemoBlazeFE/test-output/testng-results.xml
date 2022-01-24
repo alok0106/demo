@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-24T01:31:34 CET" name="Default suite" finished-at="2022-01-24T01:32:44 CET" duration-ms="70576">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.adi.runner@5dafbe45]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-01-24T01:31:34 CET" name="Default test" finished-at="2022-01-24T01:32:44 CET" duration-ms="70576">
+      <class name="com.adi.runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.adi.runner@5dafbe45]" started-at="2022-01-24T01:31:34 CET" name="setUpClass" finished-at="2022-01-24T01:31:35 CET" duration-ms="1899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.adi.runner@5dafbe45]" started-at="2022-01-24T01:31:36 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T01:32:44 CET" duration-ms="68177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer navigates through product categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Feature to test demoblaze website by purchasing laptop]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.adi.runner@5dafbe45]" started-at="2022-01-24T01:32:44 CET" name="tearDownClass" finished-at="2022-01-24T01:32:44 CET" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.adi.runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
